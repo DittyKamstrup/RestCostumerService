@@ -16,6 +16,7 @@ namespace RestCostumerService
 
         public IList<Customer> GetCustomers()
         {
+            cList.Add(new Customer(123, "Ditte", "Kamstrup", 1992));
             return cList;
         }
 
